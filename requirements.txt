@@ -1,0 +1,25 @@
+# LinkedIn Selenium Scraper Dependencies
+# Core web automation and scraping
+selenium>=4.15.0
+requests>=2.31.0
+
+# Data handling and parsing
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# File and path utilities (included in Python 3.7+)
+pathlib2>=2.3.7;python_version<"3.7"
+
+# Optional: Enhanced data processing
+pandas>=1.5.0
+numpy>=1.24.0
+
+# Optional: Advanced browser management
+webdriver-manager>=4.0.0
+
+# Optional: Data export formats
+openpyxl>=3.1.0
+xlsxwriter>=3.1.0
+
+# Development and debugging
+python-dotenv>=1.0.0
